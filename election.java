@@ -35,6 +35,7 @@ public class election  {
     percentMartinez = ((double)totalMartinez/(double)totalVotes);
     NumberFormat percent= NumberFormat.getPercentInstance();
     System.out.println("");
+    Math.round(10.01);
     System.out.println("Candidate\tVotes\tPercentage");
     System.out.println("Awbrey:\t\t"+totalAwbrey+"\t"+percent.format(percentAwbrey));
     System.out.println("Martinez:\t"+totalMartinez+"\t"+percent.format(percentMartinez));
